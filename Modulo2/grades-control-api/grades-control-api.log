@@ -1,0 +1,20 @@
+2020-07-27T02:04:17.714Z [grades-control-api] info: API Started!
+2020-07-27T02:04:39.896Z [grades-control-api] info: GET /grades/all
+2020-07-27T02:05:37.309Z [grades-control-api] info: GET /media/:subject/:type - [object Object]
+2020-07-27T02:06:06.876Z [grades-control-api] info: GET /top:top/:subject/:type - {"0":"3","top":"3","subject":"03 - React","type":"Trabalho Prático"}
+2020-07-27T02:07:54.790Z [grades-control-api] info: GET /media/:subject/:type - [object Object]
+2020-07-27T02:09:05.294Z [grades-control-api] info: GET /notaTotal/:student/:subject - 47
+2020-07-27T02:10:46.541Z [grades-control-api] info: POST /grade - {"id":49,"student":"Roberto Achar","subject":"03 - React","type":"Fórum","value":10,"timestamp":"2020-07-27T02:10:46.537Z"}
+2020-07-27T02:10:56.084Z [grades-control-api] info: GET /grades/all
+2020-07-27T02:11:32.157Z [grades-control-api] info: GET /notaTotal/:student/:subject - 70
+2020-07-27T02:14:31.846Z [grades-control-api] info: PUT /grade - {"id":33,"student":"Roberto Achar","subject":"01 - JavaScript","type":"Desafio","value":15,"timestamp":"2020-05-19T18:21:25.184Z"}
+2020-07-27T02:14:37.999Z [grades-control-api] info: GET /grades/all
+2020-07-27T02:15:14.430Z [grades-control-api] info: GET /media/:subject/:type - [object Object]
+2020-07-27T02:15:29.661Z [grades-control-api] info: GET /grades/all
+2020-07-27T02:17:07.724Z [grades-control-api] info: GET /id/:id - 32
+2020-07-27T02:17:17.073Z [grades-control-api] info: DELETE /grade/:id - 32
+2020-07-27T02:17:21.440Z [grades-control-api] info: GET /id/:id - 32
+2020-07-27T02:17:27.211Z [grades-control-api] info: GET /grades/all
+2020-07-27T02:18:02.011Z [grades-control-api] info: GET /media/:subject/:type - [object Object]
+2020-07-27T02:18:27.069Z [grades-control-api] info: GET /id/:id - 43
+2020-07-27T02:31:02.911Z [grades-control-api] info: API Started!

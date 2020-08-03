@@ -1,0 +1,76 @@
+* {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+  font-weight: 450;
+}
+
+h3 {
+  text-align: center;
+  font-size: 2em;
+}
+
+h2 {
+  margin-left: 26px;
+  text-align: left;
+  font-size: 2em;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.input-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.results-container {
+  display: flex;
+}
+
+.found-container,
+.stats-container {
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid grey;
+  width: 47%;
+}
+
+.stats-with-values {
+  max-height: 16em;
+  box-sizing: border-box;
+}
+
+.stats-list {
+  text-align: left;
+}
+
+.person {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.found-results,
+.stat-results {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#buscar {
+  width: fit-content;
+}
+
+ul {
+  display: table-cell;
+}

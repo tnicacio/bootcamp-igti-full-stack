@@ -1,0 +1,171 @@
+{
+  "nextId": 7,
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Bolo1",
+      "author": "Autor2",
+      "howTo": "modo de preparo2",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "leite frio",
+          "quantity": 2,
+          "unit": "L"
+        },
+        {
+          "id": 2,
+          "name": "banana",
+          "quantity": 3,
+          "unit": "un."
+        },
+        {
+          "id": 3,
+          "name": "maçã",
+          "quantity": 1,
+          "unit": "un."
+        }
+      ],
+      "createdAt": "2020-07-28T18:06:50.602Z",
+      "updatedAt": "2020-07-28T18:07:04.060Z"
+    },
+    {
+      "id": 3,
+      "name": "Bolo de Laranja",
+      "author": "Maria",
+      "howTo": "Faz assim ó",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "bolo",
+          "quantity": 1,
+          "unit": "kg"
+        },
+        {
+          "id": 2,
+          "name": "coca-cola",
+          "quantity": 2,
+          "unit": "L"
+        }
+      ],
+      "createdAt": "2020-07-28T18:07:53.439Z"
+    },
+    {
+      "id": 4,
+      "name": "Bolo de Fubá",
+      "author": "Joao",
+      "howTo": "Faz assim ó: Primeiro adadasdas depois asdasdsada e então adasdasdsa dasdasdasdsadsa vcvxcvcv asdasdsad qweqwewqe asdasdsad com asdasdsad e aquilo",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "bolo",
+          "quantity": 1,
+          "unit": "kg"
+        },
+        {
+          "id": 2,
+          "name": "coca-cola",
+          "quantity": 2,
+          "unit": "L"
+        },
+        {
+          "id": 3,
+          "name": "suco de laranja",
+          "quantity": 1,
+          "unit": "copo"
+        },
+        {
+          "id": 4,
+          "name": "fubá",
+          "quantity": 500,
+          "unit": "g"
+        },
+        {
+          "id": 5,
+          "name": "açucar",
+          "quantity": 3,
+          "unit": "colheres"
+        },
+        {
+          "id": 6,
+          "name": "ovos",
+          "quantity": 12,
+          "unit": "unidades"
+        }
+      ],
+      "createdAt": "2020-07-28T20:07:39.045Z"
+    },
+    {
+      "id": 5,
+      "name": "Massinha",
+      "author": "Pedro bó",
+      "howTo": "Listando as coisas que tem que ser feitas adadasdas depois asdasdsada e então adasdasdsa dasdasdasdsadsa vcvxcvcv asdasdsad qweqwewqe asdasdsad com asdasdsad e aquilo\n Então, podemos testar um barra n",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "sal",
+          "quantity": 1,
+          "unit": "kg"
+        },
+        {
+          "id": 2,
+          "name": "coca-cola",
+          "quantity": 4,
+          "unit": "L"
+        },
+        {
+          "id": 3,
+          "name": "suco de laranja",
+          "quantity": 3,
+          "unit": "copos"
+        },
+        {
+          "id": 4,
+          "name": "fubá",
+          "quantity": 50,
+          "unit": "g"
+        },
+        {
+          "id": 5,
+          "name": "ovos",
+          "quantity": 42,
+          "unit": "unidades"
+        }
+      ],
+      "createdAt": "2020-07-28T20:12:56.271Z"
+    },
+    {
+      "id": 6,
+      "name": "Massinha",
+      "author": "Pedro bó",
+      "howTo": "Listando as coisas que tem que ser feitas adadasdas depois asdasdsada e então adasdasdsa dasdasdasdsadsa  com asdasdsad e aquilo\n Então, podemos testar o primeiro barra \n e agora a segunda quebra de linha ali",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "coca-cola",
+          "quantity": 4,
+          "unit": "L"
+        },
+        {
+          "id": 2,
+          "name": "suco de laranja",
+          "quantity": 3,
+          "unit": "copos"
+        },
+        {
+          "id": 3,
+          "name": "fubá",
+          "quantity": 50,
+          "unit": "g"
+        },
+        {
+          "id": 4,
+          "name": "ovos",
+          "quantity": 42,
+          "unit": "unidades"
+        }
+      ],
+      "createdAt": "2020-07-28T20:14:08.740Z"
+    }
+  ]
+}

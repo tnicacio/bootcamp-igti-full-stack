@@ -1,0 +1,64 @@
+input[type='range'] {
+  -webkit-appearance: none;
+}
+
+input[type='range']::-webkit-slider-runnable-track {
+  width: 300px;
+  height: 5px;
+  background: #ddd;
+  border: none;
+  border-radius: 3px;
+}
+
+input[type='range']::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: none;
+  height: 16px;
+  width: 8px;
+  border-radius: 10%;
+  background: gray;
+  margin-top: -4px;
+}
+
+input[type='range']:focus {
+  outline: none;
+}
+
+input[type='range']:focus::-webkit-slider-runnable-track {
+  background: #ccc;
+}
+
+input[type='text'] {
+  width: 30px;
+}
+
+.color-picker {
+  display: inline-block;
+  zoom: 0;
+  *display: inline;
+  vertical-align: middle;
+}
+
+.output-box {
+  display: flexbox;
+  zoom: 1;
+  *display: inline;
+  width: 80px;
+  height: 80px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  margin: 30px 50px;
+  vertical-align: middle;
+  flex-direction: row;
+
+  -webkit-box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.3);
+}
+
+.output-values {
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  vertical-align: middle;
+  flex-direction: row;
+}
