@@ -1,39 +1,29 @@
 import express from 'express';
 import { promises as fs } from 'fs';
+import statesRouter from './routes/statesWithCities.js';
+import { createFiles } from './controllers/statesController.js';
+
+global.resultPath = './results/';
 
 const app = express();
 
-app.get('/', async (req, res) => {
-  res.send(await getTop5());
-});
-
-app.post('/', async (req, res) => {
-  res.send(await getBottom5());
-});
-
-app.all('/testeAll', async (req, res) => {
-  res.send(req.method);
-});
-
-app.get('/teste?', async (req, res) => {
-  res.send('/teste?');
-});
+app.use(express.json());
+app.use('/state', statesRouter);
 
 app.listen(3000, () => {
-  console.log('API STARTED');
+  try {
+    createFiles();
+    console.log('API Started!');
+  } catch (err) {
+    console.log(err.message);
+  }
 });
 
-let resultPath = './results/';
+/* let resultPath = './results/';
 let states = [];
 let cities = [];
 
-let filePath = './';
 let statesWithCities = [];
-
-async function initData() {
-  states = JSON.parse(await fs.readFile('Estados.json'));
-  cities = JSON.parse(await fs.readFile('Cidades.json'));
-}
 
 function getCitiesByStateID(stateID) {
   return cities.cidades.filter((cidade) => {
@@ -41,15 +31,6 @@ function getCitiesByStateID(stateID) {
   });
 }
 
-async function getCitiesOf(UF) {
-  try {
-    let fileName = `${resultPath}${UF}.json`;
-    const cities = JSON.parse(await fs.readFile(fileName));
-    return cities;
-  } catch (err) {
-    console.log(err);
-  }
-}
 
 async function mergeStatesWithCities() {
   try {
@@ -78,28 +59,6 @@ async function mergeStatesWithCities() {
   }
 }
 
-// 1. Criar uma função que irá criar um arquivo JSON para cada estado representado no
-// arquivo Estados.json, e o seu conteúdo será um array das cidades pertencentes a
-// aquele estado, de acordo com o arquivo Cidades.json. O nome do arquivo deve ser
-// o UF do estado, por exemplo: MG.json.
-async function writeResults(resultPath) {
-  try {
-    for (let state of states.estados) {
-      const { ID, Sigla } = state;
-      let fileName = `${resultPath}${Sigla}.json`;
-      const data = await getCitiesByStateID(ID);
-      await fs.writeFile(fileName, JSON.stringify(data));
-    }
-  } catch (err) {
-    console.log(err);
-  }
-}
-
-// 2. Criar uma função que recebe como parâmetro o UF do estado, realize a leitura do
-// arquivo JSON correspondente e retorne a quantidade de cidades daquele estado
-async function getCitiesQuantityOf(UF) {
-  return (await getCitiesOf(UF)).length;
-}
 
 async function getStateWithCityQuantity() {
   try {
@@ -255,8 +214,8 @@ async function getSmallestCityNameOfAll() {
   } catch (err) {
     console.log(err);
   }
-}
-
+} */
+/* 
 async function run() {
   await initData();
   await writeResults(resultPath);
@@ -271,4 +230,4 @@ async function run() {
   console.log(52 + 22 + 16 + 15 + 1);
 }
 
-run();
+run(); */

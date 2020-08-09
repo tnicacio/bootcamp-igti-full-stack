@@ -1,0 +1,59 @@
+{
+  "nextId": 10,
+  "lancamentos": [
+    {
+      "id": 1,
+      "valor": 1000,
+      "categoria": "Salário",
+      "data": "06/08/2020"
+    },
+    {
+      "id": 2,
+      "valor": -200,
+      "categoria": "Supermercado",
+      "data": "06/08/2020"
+    },
+    {
+      "id": 3,
+      "valor": 1300,
+      "categoria": "Salário",
+      "data": "06/08/2020"
+    },
+    {
+      "id": 4,
+      "valor": -100,
+      "categoria": "Supermercado",
+      "data": "06/08/2020"
+    },
+    {
+      "id": 5,
+      "valor": 4300,
+      "categoria": "Salário",
+      "data": "06/09/2020"
+    },
+    {
+      "id": 6,
+      "valor": -4000,
+      "categoria": "Supermercado",
+      "data": "06/08/2020"
+    },
+    {
+      "id": 7,
+      "valor": -4000,
+      "categoria": "Supermercado",
+      "data": "06/09/2020"
+    },
+    {
+      "id": 8,
+      "valor": 15000.5,
+      "categoria": "Salário",
+      "data": "06/09/2020"
+    },
+    {
+      "id": 9,
+      "valor": 15000.5,
+      "categoria": "Salário",
+      "data": "06/09/2020"
+    }
+  ]
+}
