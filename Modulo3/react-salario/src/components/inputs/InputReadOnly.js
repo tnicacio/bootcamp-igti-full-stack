@@ -7,7 +7,6 @@ export default class InputReadOnly extends Component {
     const { description, value, percentage, color } = this.props;
 
     let valor = `R$ ${formatNumber(value)}`;
-    console.log(valor);
     if (percentage) {
       valor = `${valor} (${formatNumber(percentage)}%)`;
     }
