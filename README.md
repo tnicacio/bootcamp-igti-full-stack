@@ -1,1 +1,3 @@
-# bootacamp-igti-full-stack
+# bootcamp-igti-full-stack
+
+Práticas realizadas durante o bootcamp
