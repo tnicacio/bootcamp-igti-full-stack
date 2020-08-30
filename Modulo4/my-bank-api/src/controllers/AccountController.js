@@ -15,7 +15,7 @@ export async function newAccount(req, res) {
       !conta ||
       !name ||
       !balance ||
-      (await alreadyExists(agencia, conta))
+      (await alreadyExists(Number(agencia), Number(conta)))
     ) {
       return res.status(400).json({ error: 'Invalid parameters' });
     }
@@ -256,10 +256,7 @@ export async function transferToPrivateAccount(_req, res) {
 
     const { name, balance, conta } = findTopAccount[0];
 
-    const accountAlreadyExists = await Account.findOne({
-      agencia: 99,
-      conta: Number(conta),
-    });
+    const accountAlreadyExists = alreadyExists(99, Number(conta));
 
     if (!accountAlreadyExists) {
       vipAccounts.push({
